@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Anggota Perpustakaan</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="container">
+  <div class="input">
+    <h2>Form Anggota Perpustakaan</h2>
+    <form>
+      <div class="input">
+      <label for="nama">Nama:</label><br> 
+      <input type="text" placeholder="Nama Lengkap "> 
+      </div>
+
+     
+        <div class="input">
+        <label for="Kota">Kota Lahir:</label><br>
+        <input type="text" list="kota-lahir" placeholder="kota lahir">
+      </div>
+     
+
+      <br><br />
+        <label for="tanggal_lahir">Tanggal Lahir</label><br />
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" />
+      
+        <div class="input">
+          <label>Gender:</label><br>  
+          <div class="inline">
+          <input type="radio" name="jenis_kelamin" id="pria">Pria
+          <input type="radio" name="jenis_kelamin" id="wanita">Wanita
+          </div>
+        </div>
+
+    <div class="input">
+      <label for="nomor_telepon">No Telpon:</label><br>
+      <input type="nomor_telepon" placeholder="Nomor Telpon">
+    </div>
+
+    <div class="input">
+      <label for="makanan_favorit">Makanan Favorit:</label><br>
+      <div class="inline">
+      <input type="checkbox" name="makanan_favorit" value="Stoik">Bakso
+      <input type="checkbox" name="makanan_favorit" value="hukum">Ayam geprek
+      <input type="checkbox" name="makanan_favorit" value="hukum">/mie ayam
+      </div>
+    </div>
+
+    
+    <label for="agama">Agama</label><br />
+    <select id="agama" name="agama">
+      <option value="Islam">Islam</option>
+      <option value="Kristen">Kristen</option>
+      <option value="Katholik">Katholik</option>
+      <option value="Hindu">Hindu</option>
+      <option value="Buddha">Buddha</option>
+      <option value="Konghucu">Konghucu</option>
+    </select>
+    
+    
+    <div class="input">
+      <label for="alamat">Alamat:</label><br>
+      <textarea placeholder="Alamat Rumah" ></textarea>
+    </div>
+    
+    <div class="btn">
+      <button type="submit">Clear</button>
+      <button type="submit">Send</button>
+    </div>
+  </div>
+  </form>
+</body>
+</html>

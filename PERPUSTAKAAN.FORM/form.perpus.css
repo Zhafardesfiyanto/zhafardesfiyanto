@@ -1,0 +1,71 @@
+body {
+    background: url(inazuma.jpg)
+      no-repeat fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    border: dashed 4px white;
+    border-radius: 30px;
+    background-color: blue;
+    opacity: 0.8;
+    width: 85%;
+    height: 85%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .input h2 {
+    text-align: center;
+    border-bottom: dashed 2px white;
+    color: white;
+    padding: 0%;
+  }
+  
+  .input {
+    margin: auto;
+  }
+  
+  .input input,
+  .input select,
+  .input textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .input .inline {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .input .inline input {
+    width: auto;
+  }
+  .input .inline label {
+    display: inline;
+  }
+  
+  .input label {
+    color: white;
+  }
+  
+  .btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .btn button {
+    width: 100px;
+    height: 25px;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
